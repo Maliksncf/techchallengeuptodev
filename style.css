@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  padding: 0;
+  background: linear-gradient(lightcyan, skyblue, deepskyblue);
+  height: 100%;
+}
+/* section heros*/
+#heros {
+  height: 400px;
+  background-image: url(assets/colchis3.jpg);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* displaying in the header the logo and navbar*/
+.logo {
+  width: 70px;
+  height: 50px;
+}
+li {
+  display: inline-block;
+  padding-right: 100px;
+}
+ul li {
+  list-style: none;
+  margin-left: 60px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: rgb(35, 131, 35);
+  background-color: rgb(94, 209, 255);
+  padding: 13px;
+  border-radius: 4px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, lightcyan, blue);
+}
+h1 {
+  color: rgb(222, 233, 240);
+  text-align: center;
+  font-size: 60px;
+}
+h2,
+p {
+  color: rgb(35, 105, 211);
+}
+h2 {
+  margin-left: 40px;
+}
+/* displayng royal family photos and their names*/
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.items1 img,
+.items2 img,
+.items3 img {
+  width: 200px;
+  height: 200px;
+}
+p {
+  text-align: center;
+}
+/* making a table of royal family assets*/
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  width: 1200px;
+  border-radius: 10px;
+}
+table {
+  margin-left: 40px;
+}
+tr:nth-child(odd) {
+  background-color: rgb(41, 124, 207);
+}
+th {
+  background-color: rgba(32, 185, 255, 0.911);
+}
+/*making a contact page*/
+textarea {
+  width: 1200px;
+  height: 200px;
+}
+.contactarea {
+  width: 95%;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 45px;
+}
+#contact {
+  border: 10px dashed grey;
+  margin: 20px;
+  border-radius: 10px;
+}
+.names {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: rgb(124, 121, 121);
+  font-size: 18px;
+}
